@@ -72,7 +72,7 @@
         }
         .survey-button {
             display: inline-block;
-            margin-top: 50px; /* ボタン位置を下げる */
+            margin-top: 70px; /* ボタン位置をさらに下げる */
             padding: 10px 20px;
             font-size: 1.2em;
             border: none;
@@ -92,18 +92,20 @@
         .arrow-down {
             font-size: 2em;
             color: #4CAF50;
-            position: relative; /* 矢印の位置を調整 */
-            margin-top: 20px; /* 矢印を下に移動 */
+            position: absolute;
+            top: -30px;
+            left: 70%; /* 矢印を右に移動 */
+            transform: translateX(-50%);
         }
         .button-container {
             position: relative;
             display: flex;
             justify-content: center;
             gap: 20px;
-            margin-top: 60px; /* 全体をさらに下に移動 */
+            margin-top: 80px; /* 全体をさらに下に移動 */
         }
         .instruction {
-            margin-top: 40px; /* 説明文を下に移動 */
+            margin-top: 60px; /* 説明文をさらに下に移動 */
             font-size: 1.2em;
             font-weight: bold;
             color: #333;
