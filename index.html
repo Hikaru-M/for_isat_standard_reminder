@@ -72,7 +72,7 @@
         }
         .survey-button {
             display: inline-block;
-            margin-top: 70px; /* ボタン位置をさらに下げる */
+            margin-top: 70px;
             padding: 10px 20px;
             font-size: 1.2em;
             border: none;
@@ -92,20 +92,18 @@
         .arrow-down {
             font-size: 2em;
             color: #4CAF50;
-            position: absolute;
-            top: -30px;
-            left: 70%; /* 矢印を右に移動 */
-            transform: translateX(-50%);
+            position: relative;
+            margin-top: 40px; /* 矢印をさらに下に移動 */
         }
         .button-container {
             position: relative;
             display: flex;
             justify-content: center;
             gap: 20px;
-            margin-top: 80px; /* 全体をさらに下に移動 */
+            margin-top: 90px; /* 全体をさらに下に移動 */
         }
         .instruction {
-            margin-top: 60px; /* 説明文をさらに下に移動 */
+            margin-top: 80px; /* 説明文をさらに下に移動 */
             font-size: 1.2em;
             font-weight: bold;
             color: #333;
@@ -132,9 +130,9 @@
 
     <!-- Survey and Self-mirror Reminder Buttons with Arrow -->
     <div class="button-container">
-        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfRaP-UnSUzxd_nAfVQVpr-lEYLswcZKTOID2b_D_6MF-Sq7g/viewform?usp=sf_link" target="_blank" class="survey-button red">Take Survey</a>
         <div class="arrow-down">⬇</div>
-        <a href="https://hikaru-m.github.io/for_isat_self_mirror_reminder/" target="_blank" class="survey-button green">Self-mirror Image Reminder</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfRaP-UnSUzxd_nAfVQVpr-lEYLswcZKTOID2b_D_6MF-Sq7g/viewform?usp=sf_link" target="_blank" class="survey-button red">Take Survey</a>
+        <a href="https://hikaru-m.github.io/for_isat_reminder/" target="_blank" class="survey-button green">Self-mirror Image Reminder</a>
     </div>
 
     <script>
